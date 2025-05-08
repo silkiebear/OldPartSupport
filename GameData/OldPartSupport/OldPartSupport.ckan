@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "OldPartSupport",
+    "name": "Old Part Support",
+    "abstract": "Brings back old removed parts for compatibility with older craft files",
+    "description": "This mod restores old parts that were removed in newer versions of KSP, including service bays and RCS blocks, allowing older craft files to load properly.",
+    "author": "silkiebear",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/silkiebear/OldPartSupport",
+        "repository": "https://github.com/silkiebear/OldPartSupport.git"
+    },
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "ksp_version_min": "1.12.5",
+    "ksp_version_max": "1.12.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData",
+            "install_to": "GameData"
+        }
+    ]
+} 
