@@ -10,7 +10,7 @@
         "homepage": "https://github.com/silkiebear/OldPartSupport",
         "repository": "https://github.com/silkiebear/OldPartSupport.git"
     },
-    "version": "1.0.0",
+    "version": "1.0.2,
     "ksp_version": "1.12.5",
     "ksp_version_min": "1.12.5",
     "ksp_version_max": "1.12.5",

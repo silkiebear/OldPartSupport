@@ -35,7 +35,7 @@ This mod restores old parts that were removed in newer versions of KSP, allowing
 
 ## License
 
-This mod is licensed under CC-BY-SA-4.0
+This mod is licensed under GPL-3.0
 
 ## Credits
 
