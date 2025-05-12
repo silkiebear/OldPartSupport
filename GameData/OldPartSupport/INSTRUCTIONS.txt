@@ -1,0 +1,30 @@
+OldPartSupport - Manual Installation Instructions
+=======================================
+
+To enable loading of craft files with deprecated parts, you need to manually copy
+these parts from their zDeprecated location to their original locations.
+
+STEP 1: Create these directories (if they don't already exist)
+--------------------------------------------------------------
+* GameData/Squad/Parts/Utility/rcsBlockRV-105
+* GameData/Squad/Parts/Utility/ServiceBay
+
+STEP 2: Copy the following files
+--------------------------------------------------------------
+* Copy all files from: GameData/Squad/zDeprecated/Parts/Utility/rcsBlockRV-105_v1/
+  To: GameData/Squad/Parts/Utility/rcsBlockRV-105/
+
+* Copy all files from: GameData/Squad/zDeprecated/Parts/Utility/ServiceBay_v1/
+  To: GameData/Squad/Parts/Utility/ServiceBay/
+
+STEP 3: Start KSP
+--------------------------------------------------------------
+Your old craft files should now load properly without missing part errors.
+The HideParts.cfg file will ensure these parts don't appear in the catalog.
+
+TROUBLESHOOTING
+--------------------------------------------------------------
+If your craft files still don't load:
+1. Make sure you copied ALL files (including .cfg, .mu, and .dds files)
+2. Verify the file paths exactly match what's described above
+3. Try restarting KSP after copying the files 

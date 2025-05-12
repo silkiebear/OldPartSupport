@@ -1,13 +1,36 @@
-# Old Part Support
+# OldPartSupport
 
-This mod restores old parts that were removed in newer versions of KSP, allowing older craft files to load properly. It includes service bays and other parts that are needed for backward compatibility.
+## Overview
 
-## Installation
+OldPartSupport enables loading older craft files that use deprecated parts by providing instructions for manually copying them from the zDeprecated folder back to their original locations.
 
-1. Download the latest release
-2. Extract the contents of the zip file
-3. Copy the `GameData` folder into your KSP installation directory
-4. Launch KSP
+This mod specifically supports:
+- RCS Block RV-105 (the older version that was moved to zDeprecated)
+- Service Bay 1.25m and 2.5m (the older versions that were moved to zDeprecated)
+
+## Installation (Manual File Copying Required)
+
+**IMPORTANT: This mod requires manual file copying!**
+
+1. Extract the zip file into your KSP GameData folder
+2. Follow the step-by-step instructions in INSTRUCTIONS.txt to copy the files
+
+## How It Works
+
+1. Manually copy the deprecated parts from the Squad/zDeprecated folders to their original locations
+2. This allows craft files to find the parts without showing them in the VAB/SPH
+
+## Support
+
+If you encounter any issues, please report them on the forum thread.
+
+## License
+
+This mod is distributed under the MIT license.
+
+## Required Mods
+
+- ModuleManager (included in most KSP installations)
 
 ## Features
 
@@ -30,15 +53,4 @@ This mod restores old parts that were removed in newer versions of KSP, allowing
 ## Requirements
 
 - Kerbal Space Program 1.12.5
-- ModuleManager (included in most KSP installations)
-- SCANsat mod (for SCANsat parts)
-
-## License
-
-This mod is licensed under GPL-3.0
-
-## Credits
-
-- Original parts by Squad
-- SCANsat parts by damny and the SCANsat team
-- Mod maintained by silkiebear 
+- SCANsat mod (for SCANsat parts) 
